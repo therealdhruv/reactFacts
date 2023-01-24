@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  height: 90px;
+  color: red;
+  padding: 30px 25px;
+}
+
+.nav--iconText, .nav--rightText {
+  margin: 0;
+}
+
+
+.nav--iconText {
+  color: #61DAFB;
+  font-weight: 700;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.nav--rightText {
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.nav--icon {
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+body {
+  background-color: #282D35;
+}
+
+.bodyTitle {
+  color: white;
+}
+
+
+ul {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding-left: 1.5em; 
+}
+
+li:before {
+  position: absolute;
+  content: "•";
+  color: #61DAFB;
+  left: 0;
+}
+
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+}
+
+
+.bodyTitle {
+  margin: 0;
+  letter-spacing: -0.05em;
+}
+
+.facts {
+  margin-top: 25px;
+  color: white;
+}
+
+.facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
