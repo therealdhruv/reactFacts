@@ -1,1 +1,1 @@
-just run this `npm start` into ur terminal
+## just run this `npm start` into ur terminal
